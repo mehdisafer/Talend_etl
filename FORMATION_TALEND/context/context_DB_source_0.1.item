@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_AUplkN5EEe-n19L6-HIvVg" confirmationNeeded="false" hide="false" name="dev">
+  <contextParameter xmi:id="_AUplkd5EEe-n19L6-HIvVg" comment="" name="DB_source_jdbcClass" prompt="DB_source_jdbcClass?" promptNeeded="false" repositoryContextId="" type="id_String" value="org.h2.Driver"/>
+  <contextParameter xmi:id="_AUplkt5EEe-n19L6-HIvVg" comment="" name="DB_source_userId" prompt="DB_source_userId?" promptNeeded="false" repositoryContextId="" type="id_String" value="sa"/>
+  <contextParameter xmi:id="_AUplk95EEe-n19L6-HIvVg" comment="" name="DB_source_password" prompt="DB_source_password?" promptNeeded="false" repositoryContextId="" type="id_Password" value=""/>
+  <contextParameter xmi:id="_AUpllN5EEe-n19L6-HIvVg" comment="" name="DB_source_jdbcUrl" prompt="DB_source_jdbcUrl?" promptNeeded="false" repositoryContextId="" type="id_String" value="jdbc:h2:tcp://localhost/./../database/source.h2"/>
+</talendfile:ContextType>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_bXIN4N4XEe-n19L6-HIvVg" name="Calendrier" dataPackage="_bXIN4d4XEe-n19L6-HIvVg" Server="Localhost 127.0.0.1" FilePath="C:/Users/Al-Mehdi.Safer/Documents/Formation Talend/PackageFormationTOS/fichiers/calendrier.xls" Encoding="UTF-8" SheetName="Feuil1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Feuil1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_bXIN4d4XEe-n19L6-HIvVg" name="default" dataManager="_bXIN4N4XEe-n19L6-HIvVg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_bXIN4t4XEe-n19L6-HIvVg" id="_HeWsoN4XEe-n19L6-HIvVg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bXIN494XEe-n19L6-HIvVg" label="A" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

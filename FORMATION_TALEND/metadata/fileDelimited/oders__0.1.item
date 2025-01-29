@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_3mSGEd4pEe-n19L6-HIvVg" name="oders_" dataPackage="_3mSGEt4pEe-n19L6-HIvVg" Server="Localhost 127.0.0.1" FilePath="C:/Users/Al-Mehdi.Safer/Documents/Formation Talend/PackageFormationTOS/fichiers/Orders_B.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_3mSGEt4pEe-n19L6-HIvVg" name="default" dataManager="_3mSGEd4pEe-n19L6-HIvVg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_3mSGE94pEe-n19L6-HIvVg" id="_sjZncN4pEe-n19L6-HIvVg" label="metadata_orders">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3mSGFN4pEe-n19L6-HIvVg" label="ORDER_ID" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3mSGFd4pEe-n19L6-HIvVg" label="STATUS" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3mSGFt4pEe-n19L6-HIvVg" label="CUST_ID" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3mSGF94pEe-n19L6-HIvVg" label="ORDER_DATETIME" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3mSGGN4pEe-n19L6-HIvVg" label="CUSTOMER" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
